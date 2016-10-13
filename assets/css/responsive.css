@@ -1,0 +1,89 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .mainmenu .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .single-logo {
+        margin-top: 30px;
+    }
+    .single-blog img{
+        width: 100%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-toggle .icon-bar {
+        background: #f8f8f8;
+    }
+    .menu-bg .navbar-toggle .icon-bar {
+        background: #663399;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        margin-top: -30px;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .menu-bg .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-toggle {
+        margin-top: -34px;
+    }
+    .navbar-collapse {
+        background: rgba(102, 51, 153, 1);
+    }
+    .menu-bg .navbar-collapse {
+        background: #fff;
+    }
+    .welcome-image-area {
+        padding-top: 120px;
+    }
+    .welcome-image-area h2,
+    .single-slide-item h2 {
+        font-size: 24px;
+    }
+    .single-logo {
+        margin-bottom: 20px;
+    }
+    a.slide-btn{
+        font-size: 14px;
+        padding: 5px;
+        width: 140px;
+        margin-bottom: 5px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-logo {
+        margin-bottom: 20px;
+    }
+}
